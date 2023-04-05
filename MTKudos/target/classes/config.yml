@@ -1,0 +1,86 @@
+kudo-cooldown: 3600 # Cooldown timer in seconds between kudos.
+kudo-cost: 10 # Select if kudos are free or cost money in-game.
+
+# %needed% for kudos needed for a reward.
+# %has% for kudos that player has.
+# %func% displays needed kudos, Can Claim or Claimed.
+rewards:
+  reward-one: # You can have as many rewards as you want.
+    target: 10 # How much kudos a player needs to receive their reward.
+    broadcast: true
+    icon: 
+      type: COAL
+      name: "Reward #1"
+      description:
+      - ""
+      - "&7Once you reach this reward you will receive:"
+      - "&7  - 1x &eDiamond"
+      - "&7  - &eBragging rights in chat!"
+      - "&cRequires %needed% kudos to claim"
+    commands:
+      by-console: 
+      - give %player% diamond
+    
+  reward-two:
+    target: 25
+    broadcast: true
+    icon: 
+      type: IRON_INGOT
+      name: "Reward #2"
+      description:
+      - ""
+      - "&7Once you reach this reward you will receive:"
+      - "&7  - 1x &eDiamond Pickaxe"
+      - "&7  - &eBragging rights in chat!"
+      - "&cRequires %needed% kudos to claim"
+    commands:
+      by-console: 
+      - give %player% diamond_pickaxe
+
+  reward-three:
+    target: 50
+    broadcast: true
+    icon: 
+      type: GOLD_INGOT
+      name: "Reward #3"
+      description:
+      - ""
+      - "&7Once you reach this reward you will receive:"
+      - "&7  - 1x &eTotem of Undying!"
+      - "&7  - &eBragging rights in chat!"
+      - "&cRequires %needed% kudos to claim"
+    commands:
+      by-console: 
+      - give %player% totem_of_undying
+
+  reward-four:
+    target: 100
+    broadcast: true
+    icon: 
+      type: DIAMOND
+      name: "Reward #4"
+      description:
+      - ""
+      - "&7Once you reach this reward you will receive:"
+      - "&7  - 4x &eEnd Crystal"
+      - "&7  - &eBragging rights in chat!"
+      - "&cRequires %needed% kudos to claim"
+    commands:
+      by-console: 
+      - give %player% end_crystal 4
+  
+  reward-five:
+    target: 200
+    broadcast: true
+    icon: 
+      type: NETHERITE_INGOT
+      name: "Reward #5"
+      description:
+      - ""
+      - "&7Once you reach this reward you will receive:"
+      - "&7  - 1x &eNetherite Ingot"
+      - "&7  - &eBragging rights in chat!"
+      - "&cRequires %needed% kudos to claim"
+    commands:
+      by-console: 
+      - give %player% netherite_ingot

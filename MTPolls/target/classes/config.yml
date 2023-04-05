@@ -1,0 +1,34 @@
+gui-size: 54
+choice-item:
+  material: SIGN
+  data: 0
+  display-name: "&e%choice-name%"
+  lore:
+    - ""
+    - "&7Vote count: &a%choice-vote-count%"
+  glowing: false
+  head-data: null
+  amount: 1
+  slots:
+    - 0
+    - 9
+    - 18
+    - 27
+    - 36
+    - 45
+background-items:
+  1:
+    material: STAINED_GLASS_PANE
+    data: 15
+    display-name: ""
+    lore: null
+    glowing: false
+    head-data: null
+    amount: 1
+    slots:
+      - 1
+      - 10
+      - 19
+      - 28
+      - 37
+      - 46
