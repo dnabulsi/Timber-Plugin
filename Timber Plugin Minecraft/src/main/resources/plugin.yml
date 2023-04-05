@@ -1,0 +1,6 @@
+name: Dana
+version: '${project.version}'
+main: dana.dana.Dana
+api-version: 1.19
+authors: [ dana ]
+description: my first minecraft plugin
