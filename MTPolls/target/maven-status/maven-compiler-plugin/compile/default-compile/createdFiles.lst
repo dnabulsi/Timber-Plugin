@@ -1,8 +1,0 @@
-teammt/mtpolls/containers/PollCreationContainer.class
-teammt/mtpolls/commands/PollsCommand.class
-teammt/mtpolls/containers/ViewablePollContainer.class
-teammt/mtpolls/polls/PollManager.class
-teammt/mtpolls/main/MTPolls.class
-teammt/mtpolls/containers/ActivePollsContainer.class
-teammt/mtpolls/polls/Poll.class
-teammt/mtpolls/polls/PollOption.class

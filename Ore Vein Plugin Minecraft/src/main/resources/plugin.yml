@@ -1,6 +1,0 @@
-name: OreVeinDestroyer
-version: '${project.version}'
-main: dana.dana.OreVeinDestroyer
-api-version: 1.19
-authors: [ dana ]
-description: my second minecraft plugin
